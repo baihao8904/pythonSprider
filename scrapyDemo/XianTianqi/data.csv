@@ -1,0 +1,21 @@
+wind,img,temperature,weather,week,cityDate
+南风 1级,http://img.tianqi.com/static/images/tianqibig/b2.png,7℃~-1℃,阴,星期三,西安今日天气
+东北风 1-2级,http://img.tianqi.com/static/images/tianqibig/b2.png,8℃~-2℃,阴,星期四,西安明日天气
+东北风 1-2级,http://img.tianqi.com/static/images/tianqibig/b1.png,10℃~0℃,多云,星期五,西安后天天气
+东北风 1-2级,http://img.tianqi.com/static/images/tianqibig/b0.png,11℃~-2℃,晴,星期六,西安25日天气
+东北风 1-2级,http://img.tianqi.com/static/images/tianqibig/b1.png,14℃~-1℃,多云,星期日,西安26日天气
+东北风 1-2级,http://img.tianqi.com/static/images/tianqibig/b1.png,14℃~-1℃,多云,星期一,西安27日天气
+week,temperature,img,cityDate,wind,weather
+星期三,7℃~-1℃,http://img.tianqi.com/static/images/tianqibig/b2.png,西安今日天气,北风 1级,阴
+星期四,8℃~-2℃,http://img.tianqi.com/static/images/tianqibig/b2.png,西安明日天气,东北风 1-2级,阴
+星期五,10℃~0℃,http://img.tianqi.com/static/images/tianqibig/b1.png,西安后天天气,东北风 1-2级,多云
+星期六,11℃~-2℃,http://img.tianqi.com/static/images/tianqibig/b0.png,西安25日天气,东北风 1-2级,晴
+星期日,14℃~-1℃,http://img.tianqi.com/static/images/tianqibig/b1.png,西安26日天气,东北风 1-2级,多云
+星期一,14℃~-1℃,http://img.tianqi.com/static/images/tianqibig/b1.png,西安27日天气,东北风 1-2级,多云
+temperature,week,cityDate,weather,img,wind
+7℃~-1℃,星期三,西安今日天气,阴,http://img.tianqi.com/static/images/tianqibig/b2.png,北风 1级
+8℃~-2℃,星期四,西安明日天气,阴,http://img.tianqi.com/static/images/tianqibig/b2.png,东北风 1-2级
+10℃~0℃,星期五,西安后天天气,多云,http://img.tianqi.com/static/images/tianqibig/b1.png,东北风 1-2级
+11℃~-2℃,星期六,西安25日天气,晴,http://img.tianqi.com/static/images/tianqibig/b0.png,东北风 1-2级
+14℃~-1℃,星期日,西安26日天气,多云,http://img.tianqi.com/static/images/tianqibig/b1.png,东北风 1-2级
+14℃~-1℃,星期一,西安27日天气,多云,http://img.tianqi.com/static/images/tianqibig/b1.png,东北风 1-2级
