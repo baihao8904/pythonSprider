@@ -2,10 +2,11 @@ import urllib.request
 import re
 import multiprocessing
 import threading
+import time
 
 class textProxy(object):
     def __init__(self):
-        self.sFile = '2017-02-22proxy.txt'
+        self.sFile = '2017-03-20proxy.txt'
         self.dFile = 'alive.txt'
         self.URL = 'http://www.baidu.com'
         self.thread = 10
@@ -27,6 +28,7 @@ class textProxy(object):
                         line = lines.pop()
                     else:
                         continue
+    def save(self):
         with open(self.dFile,'a+') as fp:
             for i in range(len(self.aliveList)):
                 fp.write(self.aliveList[i])
@@ -54,3 +56,5 @@ class textProxy(object):
 
 if __name__ == '__main__':
     TP = textProxy()
+    time.sleep(10)
+    TP.save()
