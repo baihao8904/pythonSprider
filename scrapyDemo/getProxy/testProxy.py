@@ -6,7 +6,7 @@ import time
 
 class textProxy(object):
     def __init__(self):
-        self.sFile = '2017-03-20proxy.txt'
+        self.sFile = '2017-03-24proxy.txt'
         self.dFile = 'alive.txt'
         self.URL = 'http://www.baidu.com'
         self.thread = 10
