@@ -30,13 +30,15 @@ def findKeyWord(theText):
     keywordStr = ';'.join(newtext)
     return keywordStr
 
+#笔记本数据库叫datamine 实验室的叫dianpingdata
+    
 def searchShopAllContent(shopname):
     connection = pymysql.connect(
             host = 'localhost',
             port = 3306,
             user = 'root',
             passwd = 'baihao1234',
-            db = 'datamine',
+            db = 'dianpingdata',
             charset = 'utf8mb4'
         )
     cur = connection.cursor()
