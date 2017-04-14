@@ -57,7 +57,7 @@ def searchShopWorstComment(shopname):
             port = 3306,
             user = 'root',
             passwd = 'baihao1234',
-            db = 'datamine',
+            db = 'dianpingdata',
             charset = 'utf8mb4'
         )
     cur = connection.cursor()
@@ -77,4 +77,6 @@ def searchShopWorstComment(shopname):
 if __name__ == '__main__':
     text = searchShopAllContent('纽约国际儿童俱乐部(高新尚中心)')
     print(findKeyWord(text))
+    toCloud('纽约国际儿童俱乐部(高新尚中心)',text,mask_path='./mask.jpg')
     print(searchShopWorstComment('纽约国际儿童'))
+    
